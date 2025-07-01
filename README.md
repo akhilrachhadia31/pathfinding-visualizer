@@ -28,47 +28,55 @@ Final Path: (1,1) (2,1) (3,1) (3,2) (3,3)
 . * * D . . . . . . . . . . . . . . . . . . . . . . . . . .
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-
-Installation & Build
+```
+## Installation & Build
 Requirements
 C++17 compatible compiler (e.g. g++)
 CMake ≥ 3.10
 Build Instructions
-
-# Clone the repository
+```
+---
+```
+## Clone the repository
 git clone https://github.com/akhilrachhadia31/pathfinding-visualizer.git
 cd pathfinding-visualizer
-
-# Create a build directory
+```
+---
+```
+## Create a build directory
 mkdir build
 cd build
-
-# Generate build files using CMake
+```
+---
+```
+## Generate build files using CMake
 cmake -G "MinGW Makefiles" ..
-
+```
 ---
 
-# Build the executable
+```
+## Build the executable
 mingw32-make
 # OR alternatively
 cmake ..
 cmake --build .
-Run the Program
-
+```
 ---
-
+```
+## Run the Program
 After building, run:
-./pathfinder      # On Linux/macOS
-pathfinder.exe    # On Windows
-Windows Notes
-
+./pathfinder       
+pathfinder.exe     
+```
 ---
-
+```
+## Windows Notes
 Prefer Windows Terminal or PowerShell over the legacy cmd.exe
-
+```
 ---
 
-Project Structure
+```
+## Project Structure
 makefile
 pathfinding-visualizer/
 ├── include/              # Header files
@@ -84,20 +92,23 @@ pathfinding-visualizer/
 ├── CMakeLists.txt        # CMake configuration
 ├── .gitignore            # Ignore list for Git
 └── README.md             # Project documentation
-Algorithms
-This visualizer uses Dijkstra’s algorithm, a greedy algorithm for finding the shortest path in a graph with non-negative weights.
 
+## Algorithms
+This visualizer uses Dijkstra’s algorithm, a greedy algorithm for finding the shortest path in a graph with non-negative weights.
+```
 ---
 
-Pathfinding Logic
+```
+## Pathfinding Logic
 Traverses the grid step-by-step from the Start (S) to Destination (D)
 Walls (#) are obstacles that the algorithm avoids
 Visited cells are marked live with *
 The final path is printed in order after completion
-
+```
 ---
-
-Author
+```
+## Author
 Akhil Rachhadia
 GitHub: @akhilrachhadia31
+```
 
