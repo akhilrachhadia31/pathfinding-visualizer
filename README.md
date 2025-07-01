@@ -45,7 +45,7 @@ Clone the repository
 - Prefer Windows Terminal or PowerShell over the legacy cmd.exe
 
 # Project Structure
-makefile
+```
 pathfinding-visualizer/
 ├── include/              # Header files
 │   ├── grid.hpp
@@ -60,6 +60,7 @@ pathfinding-visualizer/
 ├── CMakeLists.txt        # CMake configuration
 ├── .gitignore            # Ignore list for Git
 └── README.md             # Project documentation
+```
 
 # Algorithm
 - This visualizer uses Dijkstra’s algorithm, a greedy algorithm for finding the shortest path in a graph with non-negative weights.
