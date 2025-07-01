@@ -35,24 +35,24 @@ C++17 compatible compiler (e.g. g++)
 CMake ≥ 3.10
 Build Instructions
 ```
----
+
 ```
 ## Clone the repository
 git clone https://github.com/akhilrachhadia31/pathfinding-visualizer.git
 cd pathfinding-visualizer
 ```
----
+
 ```
 ## Create a build directory
 mkdir build
 cd build
 ```
----
+
 ```
 ## Generate build files using CMake
 cmake -G "MinGW Makefiles" ..
 ```
----
+
 
 ```
 ## Build the executable
@@ -61,19 +61,19 @@ mingw32-make
 cmake ..
 cmake --build .
 ```
----
+
 ```
 ## Run the Program
 After building, run:
 ./pathfinder       
 pathfinder.exe     
 ```
----
+
 ```
 ## Windows Notes
 Prefer Windows Terminal or PowerShell over the legacy cmd.exe
 ```
----
+
 
 ```
 ## Project Structure
@@ -96,7 +96,6 @@ pathfinding-visualizer/
 ## Algorithms
 This visualizer uses Dijkstra’s algorithm, a greedy algorithm for finding the shortest path in a graph with non-negative weights.
 ```
----
 
 ```
 ## Pathfinding Logic
@@ -105,7 +104,7 @@ Walls (#) are obstacles that the algorithm avoids
 Visited cells are marked live with *
 The final path is printed in order after completion
 ```
----
+
 ```
 ## Author
 Akhil Rachhadia
