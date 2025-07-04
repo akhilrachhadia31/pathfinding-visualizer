@@ -1,7 +1,6 @@
 ## Pathfinding-Visualizer
 
 A terminal-based pathfinding visualizer using **Dijkstra's Algorithm**, built in **C++**.
-![Preview Banner](https://img.shields.io/badge/C%2B%2B-Terminal--Visualizer-blue?style=flat-square)
 
 ## Features
 -  Step-by-step visualization of **Dijkstra's Algorithm**
